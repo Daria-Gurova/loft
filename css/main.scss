@@ -1,0 +1,24 @@
+$containerwidth: 940px;
+$baseFontSize: 16px;
+//colors
+$grey: #F8FAF9;
+$red: #CA1B36;
+//normalize
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css";
+//setups
+@import "layout.scss";
+//components
+@import "components/hero.scss";
+@import "components/header.scss";
+@import "components/features.scss";
+@import "components/feature.scss";
+@import "components/btn.scss";
+@import "components/section.scss";
+@import "components/headline.scss";
+@import "components/benefits.scss";
+@import "components/benefit.scss";
+@import "components/reviews.scss";
+@import "components/interactive-avatar.scss";
+@import "components/form.scss";
+@import "components/radio.scss";
+@import "components/fixed-menu.scss";

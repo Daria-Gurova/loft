@@ -1,0 +1,48 @@
+.hero {
+    background: url("../../pictures/hero/beats.png") left 68%  top 75% no-repeat;
+    background-color: $grey;
+    height: 100vh;
+    height: 650px;
+    min-width: 1100px;
+    color: black;
+    align-items: center;
+    position: relative;
+
+        &:before {
+            content: url(../../pictures/hero/grey_element.png);
+            position: absolute;
+            bottom: -27px;
+            right: 29%;
+        }
+}
+.hero__title-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 97px;
+}
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 37px 0px 67px;
+    align-items: center;
+    //background: url("/Project_2/pictures/Ellipse.png") right 36%  top 70% no-repeat;
+    //background: url("/Project_2/pictures/Ellipse.png") right center / 50% auto no-repeat;
+}
+.hero__main-title {
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: bold;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+.hero__title-description {
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 36px;
+    padding-right: 45%;
+}
+.hero__icons-section {
+    width: 100%;
+}

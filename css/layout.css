@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%; }
+
+body {
+  line-height: 1.42;
+  position: relative;
+  color: #666666;
+  font-family: 'Play', sans-serif; }
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: 'Play', sans-serif; }
+
+.wrapper {
+  position: relative;
+  min-width: 960px;
+  min-height: 100%;
+  overflow: hidden; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: normal; }
+
+table {
+  border-collapse: collapse; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+  ul li {
+    list-style: none; }
+
+p {
+  padding: 0;
+  margin: 0; }
+
+footer {
+  position: relative;
+  width: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  color: inherit; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+/*# sourceMappingURL=layout.css.map */
