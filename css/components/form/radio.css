@@ -1,0 +1,39 @@
+.radio {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+  margin-right: 16px; }
+  .radio--checkbox .radio__visible {
+    border-radius: 0%;
+    color: #E01F3D; }
+    .radio--checkbox .radio__visible:before {
+      background: url("../../../pictures/form/v.png") center center no-repeat;
+      color: #E01F3D; }
+  .radio:last-child {
+    margin-right: 0; }
+
+.radio__elem {
+  display: none; }
+  .radio__elem:checked ~ .radio__visible:before {
+    display: block; }
+
+.radio__visible {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  border-radius: 50%;
+  background: white;
+  margin-right: 10px; }
+  .radio__visible:before {
+    width: 14px;
+    height: 14px;
+    background: #E01F3D;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "";
+    display: none; }
+
+/*# sourceMappingURL=radio.css.map */

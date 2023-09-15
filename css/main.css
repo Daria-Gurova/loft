@@ -56,50 +56,6 @@ img {
   display: block;
   max-width: 100%; }
 
-.hero {
-  background: url("../../pictures/hero/beats.png") left 68% top 75% no-repeat;
-  background-color: #F8FAF9;
-  height: 100vh;
-  height: 650px;
-  min-width: 1100px;
-  color: black;
-  align-items: center;
-  position: relative; }
-  .hero:before {
-    content: url(../../pictures/hero/grey_element.png);
-    position: absolute;
-    bottom: -27px;
-    right: 29%; }
-
-.hero__title-section {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 97px; }
-
-.hero__container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding: 37px 0px 67px;
-  align-items: center; }
-
-.hero__main-title {
-  font-size: 48px;
-  line-height: 1.1;
-  font-weight: bold;
-  margin-bottom: 22px;
-  text-transform: uppercase; }
-
-.hero__title-description {
-  font-size: 21px;
-  line-height: 25px;
-  margin-bottom: 36px;
-  padding-right: 45%; }
-
-.hero__icons-section {
-  width: 100%; }
-
 .header {
   display: flex;
   align-items: center;
@@ -134,11 +90,55 @@ img {
   height: 18px;
   margin-right: 6px; }
 
+.hero {
+  background: url("../../../pictures/hero/beats.png") left 82% top 75% no-repeat;
+  background-color: #F8FAF9;
+  min-height: 650px;
+  min-width: 1100px;
+  color: black;
+  align-items: center;
+  position: relative; }
+  .hero:before {
+    content: url(../../../pictures/hero/grey.png);
+    position: absolute;
+    bottom: -27px;
+    right: 29%; }
+
+.hero__title-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-top: 97px;
+  margin-bottom: 70px; }
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 37px 0px 67px; }
+
+.hero__main-title {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: 22px;
+  text-transform: uppercase; }
+
+.hero__title-description {
+  font-size: 21px;
+  line-height: 25px;
+  margin-bottom: 36px;
+  max-width: 332px; }
+
+.hero__icons-section {
+  width: 100%; }
+
 .features {
   display: flex;
   margin-right: 310px; }
 
 .features__item {
+  max-width: 166px;
   margin-right: 46px; }
   .features__item:last-child {
     margin-right: 0; }
@@ -152,9 +152,9 @@ img {
   height: 35px;
   margin-right: 7px; }
 
-.feture__text {
-  font-size: 16px;
-  max-width: 85px; }
+.feature__text {
+  line-height: 18px;
+  font-size: 16px; }
 
 .btn {
   font-size: 16px;
@@ -164,9 +164,8 @@ img {
   border-radius: 100px;
   line-height: 1;
   text-decoration: none;
-  margin-bottom: 70px;
-  width: 163px;
-  height: 54px;
+  max-width: 163px;
+  max-height: 54px;
   border: none; }
   .btn--theme--red {
     background: #E01F3D;
@@ -206,7 +205,7 @@ img {
   margin-bottom: 60px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 68px; }
+  padding-top: 68px; }
 
 .headline {
   text-align: center; }
@@ -217,27 +216,14 @@ img {
 .headline__subtitle {
   padding: 0 26%; }
 
-.benefits {
-  display: flex;
-  margin-top: 62px; }
-
-.benefits__item {
-  flex: 1;
-  padding: 0 3%;
-  position: relative; }
-  .benefits__item:before {
-    content: url(../../pictures/why/three_dot.png);
-    position: absolute;
-    top: 30px;
-    right: 0;
-    transform: translateX(50%); }
-  .benefits__item:first-child {
-    padding-left: 0; }
-  .benefits__item:last-child {
-    padding-right: 0; }
-    .benefits__item:last-child:before {
-      display: none; }
-
+/*.section__subtitle {
+    text-align: center;
+    font-size: 16px;
+    line-height: 18.5px;
+    color: rgba(102, 102, 102, 1);
+    max-width: 590px;
+    margin: 0 auto;
+}*/
 .benefit {
   text-align: center; }
 
@@ -254,9 +240,9 @@ img {
   width: 45px;
   height: 65px;
   position: absolute;
-  top: 25%;
-  left: 33%;
-  transform: translate(-50% -50%); }
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .benefit__title {
   color: black;
@@ -268,6 +254,27 @@ img {
 .benefit__desc {
   padding: 0% 15%;
   text-align: center; }
+
+.benefits {
+  display: flex;
+  margin-top: 62px; }
+
+.benefits__item {
+  flex: 1;
+  padding: 0 3%;
+  position: relative; }
+  .benefits__item:before {
+    content: url(../../pictures/why/three_dot.png);
+    position: absolute;
+    top: 18%;
+    right: 0;
+    transform: translateX(50%); }
+  .benefits__item:first-child {
+    padding-left: 0; }
+  .benefits__item:last-child {
+    padding-right: 0; }
+    .benefits__item:last-child:before {
+      display: none; }
 
 .reviews__display {
   background: #F8FAF9;
@@ -357,6 +364,8 @@ img {
 .form__row {
   display: flex;
   margin-bottom: 18px; }
+  .form__row:last-child {
+    margin-bottom: 0; }
 
 .form__block {
   flex: 1;
@@ -397,8 +406,10 @@ img {
     border-radius: 0%;
     color: #E01F3D; }
     .radio--checkbox .radio__visible:before {
-      background: url("../../pictures/form/v.png") center center no-repeat;
+      background: url("../../../pictures/form/v.png") center center no-repeat;
       color: #E01F3D; }
+  .radio:last-child {
+    margin-right: 0; }
 
 .radio__elem {
   display: none; }
@@ -433,6 +444,8 @@ img {
   margin-bottom: 5px; }
   .fixed-menu__item--active .fixed-menu__link {
     border-color: #292929; }
+  .fixed-menu__item:last-child {
+    margin-bottom: 0; }
 
 .fixed-menu__link {
   width: 16px;

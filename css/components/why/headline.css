@@ -1,0 +1,19 @@
+.headline {
+  text-align: center; }
+
+.headline__title {
+  margin-bottom: 18px; }
+
+.headline__subtitle {
+  padding: 0 26%; }
+
+/*.section__subtitle {
+    text-align: center;
+    font-size: 16px;
+    line-height: 18.5px;
+    color: rgba(102, 102, 102, 1);
+    max-width: 590px;
+    margin: 0 auto;
+}*/
+
+/*# sourceMappingURL=headline.css.map */

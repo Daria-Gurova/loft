@@ -6,19 +6,25 @@ $red: #CA1B36;
 //normalize
 @import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css";
 //setups
-@import "layout.scss";
+@import "./layout.scss";
 //components
-@import "components/hero.scss";
-@import "components/header.scss";
-@import "components/features.scss";
-@import "components/feature.scss";
-@import "components/btn.scss";
-@import "components/section.scss";
-@import "components/headline.scss";
-@import "components/benefits.scss";
-@import "components/benefit.scss";
-@import "components/reviews.scss";
-@import "components/interactive-avatar.scss";
-@import "components/form.scss";
-@import "components/radio.scss";
-@import "components/fixed-menu.scss";
+@import "./components/header/header.scss";
+
+@import "./components/hero/hero.scss";
+@import "./components/hero/features.scss";
+@import "./components/hero/feature.scss";
+@import "./components/hero/btn.scss";
+
+@import "./components/section/section.scss";
+
+@import "./components/why/headline.scss";
+@import "./components/why/benefit.scss";
+@import "./components/why/benefits.scss";
+
+@import "./components/reviews/reviews.scss";
+@import "./components/reviews/interactive-avatar.scss";
+
+@import "./components/form/form.scss";
+@import "./components/form/radio.scss";
+
+@import "./components/fixed-menu/fixed-menu.scss";
