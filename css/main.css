@@ -10,13 +10,13 @@ body {
   font-family: 'Play', sans-serif; }
 
 .container {
-  width: 1100px;
+  max-width: 940px;
+  width: 95%;
   margin: 0 auto;
   font-family: 'Play', sans-serif; }
 
 .wrapper {
   position: relative;
-  min-width: 960px;
   min-height: 100%;
   overflow: hidden; }
 
@@ -91,7 +91,7 @@ img {
   margin-right: 6px; }
 
 .hero {
-  background: url("../../../pictures/hero/beats.png") left 82% top 75% no-repeat;
+  background: url(../../pictures/hero/beats.png) left 82% top 75% no-repeat;
   background-color: #F8FAF9;
   min-height: 650px;
   min-width: 1100px;
@@ -99,7 +99,7 @@ img {
   align-items: center;
   position: relative; }
   .hero:before {
-    content: url(../../../pictures/hero/grey.png);
+    content: url(../../pictures/hero/grey.png);
     position: absolute;
     bottom: -27px;
     right: 29%; }

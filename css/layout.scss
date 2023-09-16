@@ -12,14 +12,14 @@ body {
 }
 
 .container {
-    width: 1100px;
+    max-width: $containerwidth;
+    width: 95%;
     margin: 0 auto;
     font-family: 'Play', sans-serif;
 }
 
 .wrapper {
     position: relative;
-    min-width: 960px;
     min-height: 100%;
     overflow: hidden;
 }
