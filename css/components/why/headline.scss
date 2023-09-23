@@ -1,18 +1,20 @@
 .headline {
     text-align: center;
+
+    @include phones {
+        padding: rem(38px) 0;
+    }
 }
 .headline__title {
-    margin-bottom: 18px;
-}
-.headline__subtitle {
-    padding: 0 26%;
+    margin-bottom: rem(18px);
 }
 
-/*.section__subtitle {
-    text-align: center;
-    font-size: 16px;
-    line-height: 18.5px;
-    color: rgba(102, 102, 102, 1);
-    max-width: 590px;
-    margin: 0 auto;
-}*/
+.headline__subtitle {
+    padding: 0 26%;
+
+    @include phones {
+        font-size: rem(16px);
+        line-height: rem(18.5px);
+        padding: 0 5%;
+    }
+}

@@ -1,14 +1,27 @@
+// breakpoints
+
+$tablets: 768px;
+$phones: 480px;
+
 $containerwidth: 940px;
 $baseFontSize: 16px;
+
 //colors
 $grey: #F8FAF9;
 $red: #CA1B36;
+
+//setups
+
+@import "./media.scss";
+
+@import "./layout.scss";
+
 //normalize
 @import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css";
-//setups
-@import "./layout.scss";
+
 //components
 @import "./components/header/header.scss";
+@import "./components/header/hamburger.scss";
 
 @import "./components/hero/hero.scss";
 @import "./components/hero/features.scss";
@@ -26,5 +39,9 @@ $red: #CA1B36;
 
 @import "./components/form/form.scss";
 @import "./components/form/radio.scss";
+
+@import "./components/map/map.scss";
+
+@import "./components/footer/footer.scss";
 
 @import "./components/fixed-menu/fixed-menu.scss";

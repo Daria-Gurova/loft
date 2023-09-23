@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 24 of /Users/dariagurova/dev/beats/loft/css/components/reviews/reviews.scss, in `tablets'
-        from line 24 of /Users/dariagurova/dev/beats/loft/css/components/reviews/reviews.scss
+        on line 8 of /Users/dariagurova/dev/beats/loft/css/components/header/hamburger.scss, in `tablets'
+        from line 8 of /Users/dariagurova/dev/beats/loft/css/components/header/hamburger.scss
 
-19: }
-20: 
-21: .reviews__display-inner {
-22:     display: flex;
-23: 
-24:     @include tablets {
-25:         flex-direction: column;
-26:         text-align: center;
-27:         align-items: center;
-28:     }
-29: }
+3:     height: 20px;
+4:     flex-direction: column;
+5:     justify-content: space-between;
+6:     display: none;
+7: 
+8:     @include tablets {
+9:         display: inline-flex;
+10:     }
+11: }
+12: 
+13: .hamburger__plank {
 
 Backtrace:
-/Users/dariagurova/dev/beats/loft/css/components/reviews/reviews.scss:24:in `tablets'
-/Users/dariagurova/dev/beats/loft/css/components/reviews/reviews.scss:24
+/Users/dariagurova/dev/beats/loft/css/components/header/hamburger.scss:8:in `tablets'
+/Users/dariagurova/dev/beats/loft/css/components/header/hamburger.scss:8
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 24 of /Users/dariagurova/dev/beats/loft/css/components/reviews/reviews.scss, in `tablets'\A         from line 24 of /Users/dariagurova/dev/beats/loft/css/components/reviews/reviews.scss\A \A 19: }\A 20: \A 21: .reviews__display-inner {\A 22:     display: flex;\A 23: \A 24:     @include tablets {\A 25:         flex-direction: column;\A 26:         text-align: center;\A 27:         align-items: center;\A 28:     }\A 29: }"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 8 of /Users/dariagurova/dev/beats/loft/css/components/header/hamburger.scss, in `tablets'\A         from line 8 of /Users/dariagurova/dev/beats/loft/css/components/header/hamburger.scss\A \A 3:     height: 20px;\A 4:     flex-direction: column;\A 5:     justify-content: space-between;\A 6:     display: none;\A 7: \A 8:     @include tablets {\A 9:         display: inline-flex;\A 10:     }\A 11: }\A 12: \A 13: .hamburger__plank {"; }

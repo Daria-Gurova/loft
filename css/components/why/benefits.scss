@@ -1,6 +1,11 @@
 .benefits {
     display: flex;
-    margin-top: 62px;
+    margin-top: rem(62px);
+
+    @include phones {
+        flex-direction: column;
+        //justify-content: space-between;
+    }
 }
 
 .benefits__item {
@@ -8,12 +13,25 @@
     padding: 0 3%;
     position: relative;
 
+    @include phones {
+        padding: 0;
+        margin-bottom: rem(31px);
+    }
+
     &:before {
         content: url(../../pictures/why/three_dot.png);
         position: absolute;
         top: 18%;
         right: 0;
         transform: translateX(50%);
+
+        @include tablets {
+            top: 12%;
+        }
+
+        @include phones {
+            display: none;
+        }
     }
 
     &:first-child {

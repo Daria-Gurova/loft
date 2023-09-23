@@ -1,10 +1,21 @@
+html {
+    font-size: $baseFontSize;
+
+    @include tablets {
+        font-size: $baseFontSize - 1px;
+    }
+
+    @include phones {
+        font-size: $baseFontSize - 2px;
+    }
+}
+
 html,
 body {
     height: 100%;
 }
 
 body {
-    //font-size: $baseFontSize;
     line-height: 1.42;
     position: relative;
     color: #666666;
@@ -15,11 +26,11 @@ body {
     max-width: $containerwidth;
     width: 95%;
     margin: 0 auto;
-    font-family: 'Play', sans-serif;
 }
 
 .wrapper {
     position: relative;
+    width: 100%;
     min-height: 100%;
     overflow: hidden;
 }

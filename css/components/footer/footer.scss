@@ -1,0 +1,45 @@
+.footer__container {
+    padding: rem(20px) 0 rem(18px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include phones {
+        flex-direction: column;
+        justify-content: center;
+        gap: 19px;
+    }
+}
+
+.footer__phone-number {
+    margin: 0;
+    font-style: normal;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+
+    @include phones {
+        align-items: center;
+        gap: 12px;
+    }
+}
+
+.contacts__place {
+    font-style: normal;
+    
+    @include phones {
+        line-height: 24px;
+    }
+}
+
+.socials {
+    display: flex;
+    gap: rem(10px);
+}
+
+.social__icon {
+    width: 30px;
+    height: 30px;
+}

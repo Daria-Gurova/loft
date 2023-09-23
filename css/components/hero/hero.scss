@@ -1,50 +1,101 @@
 .hero {
-    background: url(../../pictures/hero/beats.png) left 82%  top 75% no-repeat;
+    background: url(../pictures/hero/beats.png) left 82%  top 75% no-repeat;
     background-color: $grey;
-    min-height: 650px;
-    min-width: 1100px;
+    height: rem(652px);
     color: black;
     align-items: center;
     position: relative;
+    padding-top: rem(24px);
 
+    @include tablets {
+        height: rem(1000px);
+        background: none;
+    }
+
+    @include tablets {
+        background-color: $grey;
+    }
+
+    &:before, &:after {
+        @include tablets {
+            display: none;
+        }
+    }
         &:before {
-            content: url(../../pictures/hero/grey.png);
+            content: url(../pictures/hero/grey.png);
             position: absolute;
-            bottom: -27px;
+            bottom: rem(-27px);
             right: 29%;
         }
 }
 
 .hero__title-section {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin-top: 97px;
-    margin-bottom: 70px;
+    width: 40%;
+
+    @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &:before {
+            content: "";
+            width: rem(323px);
+            height: rem(323px);
+            background: url(../pictures/hero/beats.png) center center no-repeat;
+            background-size: contain;
+        }
+    }
 }
 
 .hero__container {
+    //background-color: $grey;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 100%;
-    padding: 37px 0px 67px;
+    //padding: rem(37px) rem(0px) rem(67px);
+    padding-bottom: rem(67px);
 }
 
 .hero__main-title {
-    font-size: 48px;
-    line-height: 1.1;
+    font-size: rem(48px);
+    line-height: rem(52px);
     font-weight: bold;
-    margin-bottom: 22px;
+    margin-bottom: rem(22px);
     text-transform: uppercase;
+    
+    @include tablets {
+        margin-top: rem(64px);
+    }
+
+    @include phones {
+        font-size: rem(32px);
+        line-height: rem(36px);
+    }
 }
 
 .hero__title-description {
-    font-size: 21px;
-    line-height: 25px;
-    margin-bottom: 36px;
-    max-width: 332px;
+    font-size: rem(20px);
+    line-height: rem(25px);
+    margin-bottom: rem(36px);
+    
+    @include tablets {
+        padding: 0 25%;
+    }
+
+    @include phones {
+        padding: 0 12%;
+    }
 }
 
 .hero__icons-section {
     width: 100%;
+
+    @include tablets {
+        display: none;
+    }
 }
