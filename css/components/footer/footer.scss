@@ -1,3 +1,11 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+
 .footer__container {
     padding: rem(20px) 0 rem(18px);
     display: flex;
@@ -11,6 +19,9 @@
     }
 }
 
+.phone-number__icon-elem-footer {
+    fill: red;
+}
 .footer__phone-number {
     margin: 0;
     font-style: normal;
@@ -39,7 +50,7 @@
     gap: rem(10px);
 }
 
-.social__icon {
+.social__icon-image {
     width: 30px;
     height: 30px;
 }

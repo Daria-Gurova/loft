@@ -7,7 +7,7 @@
     }
 }
 
-.benefit__image-wrapper {
+.benefit__image {
     display:  inline-block;
     width: rem(126px);
     height: rem(126px);
@@ -47,10 +47,15 @@
 
 .benefit__title {
     color: black;
+    font-size: rem(24px);
     font-weight: bold;
 
+    @include tablets {
+        font-size: rem(22px);
+    }
+
     @include phones {
-        font-size: 24px;
+        margin-top: rem(13px);
     }
 }
 
@@ -61,9 +66,12 @@
 }
 
 .benefit__desc {
+    font-size: rem(16px);
+    line-height: rem(18.5px);
+    left: rem(18.5px);
     padding: 0% 15%;
 
-    @include phones {
+    @include tablets {
         padding: 0;
     }
 }

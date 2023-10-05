@@ -1,12 +1,12 @@
 .section {
     min-height: rem(650px);
     //min-width: rem(1100px);
-    //height: 100vh; 
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    top: 20%;
-    left: 20%;
+    /*top: 20%;
+    left: 20%;*/
 }
 
 .section__title {
@@ -24,6 +24,7 @@
 
 .order-section {
     background: #181818;
+    height: 100%;
 }
 
 .order-title {

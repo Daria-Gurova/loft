@@ -23,6 +23,8 @@ $red: #CA1B36;
 @import "./components/header/header.scss";
 @import "./components/header/hamburger.scss";
 
+@import "./components/overlay/overlay.scss";
+
 @import "./components/hero/hero.scss";
 @import "./components/hero/features.scss";
 @import "./components/hero/feature.scss";
@@ -33,6 +35,9 @@ $red: #CA1B36;
 @import "./components/why/headline.scss";
 @import "./components/why/benefit.scss";
 @import "./components/why/benefits.scss";
+
+@import "./components/shop/shop.scss";
+@import "./components/shop/arrow.scss";
 
 @import "./components/reviews/reviews.scss";
 @import "./components/reviews/interactive-avatar.scss";

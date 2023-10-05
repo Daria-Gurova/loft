@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 7 of /Users/dariagurova/dev/beats/loft/css/components/footer/footer.scss, in `phones'
-        from line 7 of /Users/dariagurova/dev/beats/loft/css/components/footer/footer.scss
+        on line 15 of /Users/dariagurova/dev/beats/loft/css/components/footer/footer.scss, in `phones'
+        from line 15 of /Users/dariagurova/dev/beats/loft/css/components/footer/footer.scss
 
-2:     padding: rem(20px) 0 rem(18px);
-3:     display: flex;
-4:     justify-content: space-between;
-5:     align-items: center;
-6: 
-7:     @include phones {
-8:         flex-direction: column;
-9:         justify-content: center;
-10:         gap: 19px;
-11:     }
-12: }
+10:     padding: rem(20px) 0 rem(18px);
+11:     display: flex;
+12:     justify-content: space-between;
+13:     align-items: center;
+14: 
+15:     @include phones {
+16:         flex-direction: column;
+17:         justify-content: center;
+18:         gap: 19px;
+19:     }
+20: }
 
 Backtrace:
-/Users/dariagurova/dev/beats/loft/css/components/footer/footer.scss:7:in `phones'
-/Users/dariagurova/dev/beats/loft/css/components/footer/footer.scss:7
+/Users/dariagurova/dev/beats/loft/css/components/footer/footer.scss:15:in `phones'
+/Users/dariagurova/dev/beats/loft/css/components/footer/footer.scss:15
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 7 of /Users/dariagurova/dev/beats/loft/css/components/footer/footer.scss, in `phones'\A         from line 7 of /Users/dariagurova/dev/beats/loft/css/components/footer/footer.scss\A \A 2:     padding: rem(20px) 0 rem(18px);\A 3:     display: flex;\A 4:     justify-content: space-between;\A 5:     align-items: center;\A 6: \A 7:     @include phones {\A 8:         flex-direction: column;\A 9:         justify-content: center;\A 10:         gap: 19px;\A 11:     }\A 12: }"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 15 of /Users/dariagurova/dev/beats/loft/css/components/footer/footer.scss, in `phones'\A         from line 15 of /Users/dariagurova/dev/beats/loft/css/components/footer/footer.scss\A \A 10:     padding: rem(20px) 0 rem(18px);\A 11:     display: flex;\A 12:     justify-content: space-between;\A 13:     align-items: center;\A 14: \A 15:     @include phones {\A 16:         flex-direction: column;\A 17:         justify-content: center;\A 18:         gap: 19px;\A 19:     }\A 20: }"; }

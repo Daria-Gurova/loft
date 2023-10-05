@@ -19,18 +19,15 @@
     }
 
     &:before {
-        content: url(../../pictures/why/three_dot.png);
+        content: url(../pictures/why/three_dot.png);
         position: absolute;
         top: 18%;
         right: 0;
         transform: translateX(50%);
 
         @include tablets {
-            top: 12%;
-        }
-
-        @include phones {
             display: none;
+            top: 12%;
         }
     }
 
@@ -40,6 +37,7 @@
 
     &:last-child {
         padding-right: 0;
+        margin-bottom: 0;
 
         &:before {
             display: none;

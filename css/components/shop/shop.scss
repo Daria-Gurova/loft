@@ -1,0 +1,198 @@
+.shop-section {
+    background-color: $grey;
+    color: black;
+    align-items: center;
+    
+}
+
+.shop-container {
+    position: relative;
+}
+
+.shop__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: rem(59px);
+    overflow: hidden;
+
+    @include tablets {
+        flex-direction: column;
+        gap: rem(49px);
+    }
+
+    @include phones {
+        gap: rem(26px);
+    }
+}
+
+.shop__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: rem(24px);
+
+    @include tablets {
+        align-items: center;
+        gap: rem(14px);
+    }
+}
+
+.shop__image-wrap {
+    width: rem(452px);
+
+    @include tablets {
+        width: rem(306px);
+    }
+}
+
+.shop__image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.shop__btn-wrap {
+    position: relative;
+    display: inline-block;
+    width: rem(91px);
+    height: rem(91px);
+    background-color: rgba(154, 154, 154, 1);
+    border-radius: rem(4px);
+    
+    @include tablets {
+        display: none;
+    }
+}
+
+.shop__link {
+    width: rem(91px);
+    height: rem(91px);
+}
+
+.click {
+    max-width: rem(42px);
+    max-height: rem(42px);
+    fill: white;
+    margin: rem(24px);
+}
+
+.shop__title {
+    text-transform: uppercase;
+    font-size: rem(36px);
+    line-height: rem(42px);
+    font-weight: 700;
+    margin: 0;
+    
+    @include tablets {
+        font-size: rem(28px);
+        line-height: rem(33px);
+        text-align: center;
+    }
+}
+
+.shop__description {
+    max-width: rem(368px);
+    color: rgba(102, 102, 102, 1);
+    font-size: rem(16px);
+    line-height: rem(19px);
+    font-weight: 400;
+    
+    @include tablets {
+        max-width: rem(614px);
+        font-size: rem(16px);
+        line-height: rem(19px);
+    }
+
+    @include phones {
+        max-width: rem(412px);
+    }
+}
+
+.shop__points {
+    max-width: rem(368px);
+    display: flex;
+    gap: rem(44px);
+    
+    @include tablets {
+        max-width: rem(252px);
+    }
+}
+
+.shop__tech-title {
+    font-size: rem(16px);
+    line-height: rem(19px);
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+}
+
+.shop__tech-desc {
+    font-size: rem(18px);
+    line-height: rem(21px);
+    font-weight: 700;
+}
+
+.shop__buy {
+    display: flex;
+    align-items: center;
+    gap: rem(13px);
+}
+
+.shop__price {
+    font-size: rem(36px);
+    line-height: rem(60px);
+    font-weight: 400;
+    
+    @include tablets {
+        font-size: rem(40px);
+    }
+}
+
+.shop__structure-container {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    max-width: rem(273px);
+    background-color: rgba(154, 154, 154, 1);
+    border-radius: rem(4px);
+
+}
+.shop__structure-list {
+    display: flex;
+    flex-direction: column;
+    padding: rem(28px) rem(25px) rem(34px) rem(30px);
+    gap: rem(8px);
+    //margin: rem(28px) rem(25px) rem(34px) rem(35px);
+}
+
+.shop__structure-point {
+    display: flex;
+    align-items: center;
+    //gap: rem(16px);
+    
+}
+
+.shop__structure-icon-wrap {
+    width: rem(32px);
+    height: rem(32px);
+    margin-right: rem(16px);
+}
+
+.shop__structure-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.shop__structure-text {
+    display: flex;
+    justify-content: space-between;
+    width: rem(180px);
+    //margin-right: rem(25px);
+    font-size: rem(16px);
+    line-height: rem(24px);
+    font-weight: 400;
+}
+
+.shop__btn-wrap:hover .shop__structure-container {
+    display: block;
+}

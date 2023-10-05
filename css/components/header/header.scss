@@ -7,6 +7,8 @@
 
 .logo {
     margin-right: rem(38px);
+    width: rem(40px);
+    height: rem(40px);
 }
 
 .menu {
@@ -54,6 +56,7 @@
 }
 
 .phone-number__icon-elem {
+    fill: black;
     width: rem(18px);
     height: rem(18px);
     margin-right: rem(6px);

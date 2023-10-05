@@ -3,9 +3,9 @@ Error: Undefined variable: "$grey".
         on line 3 of /Users/dariagurova/dev/beats/loft/css/components/hero/hero.scss
 
 1: .hero {
-2:     background: url(../pictures/hero/beats.png) left 82%  top 75% no-repeat;
+2:     background: url(../pictures/hero/beats.png) left 82%  top 65% no-repeat;
 3:     background-color: $grey;
-4:     height: rem(652px);
+4:     min-height: rem(652px);
 5:     color: black;
 6:     align-items: center;
 7:     position: relative;
@@ -59,4 +59,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$grey\".\A         on line 3 of /Users/dariagurova/dev/beats/loft/css/components/hero/hero.scss\A \A 1: .hero {\A 2:     background: url(../pictures/hero/beats.png) left 82%  top 75% no-repeat;\A 3:     background-color: $grey;\A 4:     height: rem(652px);\A 5:     color: black;\A 6:     align-items: center;\A 7:     position: relative;\A 8:     padding-top: rem(24px);"; }
+  content: "Error: Undefined variable: \"$grey\".\A         on line 3 of /Users/dariagurova/dev/beats/loft/css/components/hero/hero.scss\A \A 1: .hero {\A 2:     background: url(../pictures/hero/beats.png) left 82%  top 65% no-repeat;\A 3:     background-color: $grey;\A 4:     min-height: rem(652px);\A 5:     color: black;\A 6:     align-items: center;\A 7:     position: relative;\A 8:     padding-top: rem(24px);"; }

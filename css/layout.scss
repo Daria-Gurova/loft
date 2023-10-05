@@ -22,6 +22,10 @@ body {
     font-family: 'Play', sans-serif;
 }
 
+.body--active-menu {
+    overflow: hidden;
+}
+
 .container {
     max-width: $containerwidth;
     width: 95%;

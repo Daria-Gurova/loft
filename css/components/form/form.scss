@@ -21,20 +21,21 @@
 
     @include tablets {
         margin-right: 0;
+        margin-bottom: rem(18px);
     }
+}
+
+.form__col--no-margin {
+    margin-bottom: 0;
 }
 
 .form__row {
     display: flex;
     margin-bottom: rem(18px);
+}
 
-    &:last-child {
-        margin-bottom: 0;
-
-        @include tablets {
-            margin-bottom: rem(18px);
-        }
-    }
+.form__row--no-margin {
+    margin-bottom: 0;
 }
 
 .form__block {
@@ -80,6 +81,10 @@
     @include phones {
         justify-content: center;
     }
+}
+
+.form__controls--no-margin {
+    margin-bottom: 0;
 }
 
 .form__title {
