@@ -6,8 +6,8 @@ const body = document.querySelector('body');
 const link = document.querySelectorAll('.overlay .menu__link');
 console.log(link);
 
-function toggleMenu() {
-    //e.preventDefault();
+function toggleMenu(evt) {
+    evt.preventDefault();
     hamburger.classList.toggle('hamburger--active');
     overlay.classList.toggle('overlay--active');
     body.classList.toggle('body--active-menu');
