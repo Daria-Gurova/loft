@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 12 of /Users/dariagurova/dev/beats/loft/css/components/header/hamburger.scss, in `tablets'
-        from line 12 of /Users/dariagurova/dev/beats/loft/css/components/header/hamburger.scss
+        on line 12 of /Users/dariagurova/Documents/GitHub/loft/css/components/header/hamburger.scss, in `tablets'
+        from line 12 of /Users/dariagurova/Documents/GitHub/loft/css/components/header/hamburger.scss
 
 7:     top: rem(31px);
 8:     right: rem(36px);
@@ -16,8 +16,8 @@ Error: Undefined mixin 'tablets'.
 17: .hamburger--active {
 
 Backtrace:
-/Users/dariagurova/dev/beats/loft/css/components/header/hamburger.scss:12:in `tablets'
-/Users/dariagurova/dev/beats/loft/css/components/header/hamburger.scss:12
+/Users/dariagurova/Documents/GitHub/loft/css/components/header/hamburger.scss:12:in `tablets'
+/Users/dariagurova/Documents/GitHub/loft/css/components/header/hamburger.scss:12
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 12 of /Users/dariagurova/dev/beats/loft/css/components/header/hamburger.scss, in `tablets'\A         from line 12 of /Users/dariagurova/dev/beats/loft/css/components/header/hamburger.scss\A \A 7:     top: rem(31px);\A 8:     right: rem(36px);\A 9:     display: none;\A 10:     z-index: 15;\A 11: \A 12:     @include tablets {\A 13:         display: inline-flex;\A 14:     }\A 15: }\A 16: \A 17: .hamburger--active {"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 12 of /Users/dariagurova/Documents/GitHub/loft/css/components/header/hamburger.scss, in `tablets'\A         from line 12 of /Users/dariagurova/Documents/GitHub/loft/css/components/header/hamburger.scss\A \A 7:     top: rem(31px);\A 8:     right: rem(36px);\A 9:     display: none;\A 10:     z-index: 15;\A 11: \A 12:     @include tablets {\A 13:         display: inline-flex;\A 14:     }\A 15: }\A 16: \A 17: .hamburger--active {"; }

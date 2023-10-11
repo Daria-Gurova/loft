@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 3 of /Users/dariagurova/dev/beats/loft/css/components/overlay/overlay.scss, in `tablets'
-        from line 3 of /Users/dariagurova/dev/beats/loft/css/components/overlay/overlay.scss
+        on line 3 of /Users/dariagurova/Documents/GitHub/loft/css/components/overlay/overlay.scss, in `tablets'
+        from line 3 of /Users/dariagurova/Documents/GitHub/loft/css/components/overlay/overlay.scss
 
 1: .overlay {
 2: 
@@ -13,8 +13,8 @@ Error: Undefined mixin 'tablets'.
 8:         display: flex;
 
 Backtrace:
-/Users/dariagurova/dev/beats/loft/css/components/overlay/overlay.scss:3:in `tablets'
-/Users/dariagurova/dev/beats/loft/css/components/overlay/overlay.scss:3
+/Users/dariagurova/Documents/GitHub/loft/css/components/overlay/overlay.scss:3:in `tablets'
+/Users/dariagurova/Documents/GitHub/loft/css/components/overlay/overlay.scss:3
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -63,4 +63,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 3 of /Users/dariagurova/dev/beats/loft/css/components/overlay/overlay.scss, in `tablets'\A         from line 3 of /Users/dariagurova/dev/beats/loft/css/components/overlay/overlay.scss\A \A 1: .overlay {\A 2: \A 3:     @include tablets {\A 4:         width: 100%;\A 5:         height: 100%;\A 6:         top: 0;\A 7:         left: 100%;\A 8:         display: flex;"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 3 of /Users/dariagurova/Documents/GitHub/loft/css/components/overlay/overlay.scss, in `tablets'\A         from line 3 of /Users/dariagurova/Documents/GitHub/loft/css/components/overlay/overlay.scss\A \A 1: .overlay {\A 2: \A 3:     @include tablets {\A 4:         width: 100%;\A 5:         height: 100%;\A 6:         top: 0;\A 7:         left: 100%;\A 8:         display: flex;"; }

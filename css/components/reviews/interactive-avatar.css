@@ -3,10 +3,12 @@
   height: rem(80px);
   border: rem(6px) solid transparent;
   border-radius: 50%;
+  cursor: pointer;
   overflow: hidden;
   position: relative; }
-  .interactive-avatar--active {
-    border-color: #E01F3D; }
+
+.interactive-avatar.active {
+  border-color: #E01F3D; }
 
 .interactive-avatar__link {
   position: absolute;

@@ -1,0 +1,67 @@
+.team {
+  display: flex;
+  justify-content: space-between;
+  gap: rem(20px);
+  position: relative; }
+
+.team__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1; }
+
+.team__member {
+  width: rem(220px);
+  height: rem(290px);
+  margin-bottom: rem(25px); }
+
+.team__img {
+  object-fit: cover;
+  width: 100%; }
+
+.team__title {
+  border: none;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: rem(11px);
+  gap: rem(4px);
+  cursor: pointer; }
+
+.team__name {
+  margin: 0;
+  padding: 0;
+  font-size: rem(18px);
+  line-height: rem(21px); }
+
+.team__elem {
+  padding: rem(6px) 0; }
+
+.team__red {
+  width: rem(9px);
+  height: rem(9px); }
+
+.team--version--desktop .team__content {
+  position: absolute;
+  top: 100%; }
+
+.team__content {
+  overflow: hidden;
+  height: 0;
+  transition: height .3s;
+  width: rem(220px); }
+
+.team__profession {
+  font-size: rem(16px);
+  line-height: rem(19px);
+  text-align: center;
+  margin-bottom: rem(4px);
+  color: black; }
+
+.team__description {
+  font-size: rem(16px);
+  line-height: rem(19px);
+  text-align: center;
+  color: #666666; }
+
+/*# sourceMappingURL=team.css.map */

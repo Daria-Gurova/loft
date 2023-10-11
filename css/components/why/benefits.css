@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 5 of /Users/dariagurova/dev/beats/loft/css/components/why/benefits.scss, in `phones'
-        from line 5 of /Users/dariagurova/dev/beats/loft/css/components/why/benefits.scss
+        on line 5 of /Users/dariagurova/Documents/GitHub/loft/css/components/why/benefits.scss, in `phones'
+        from line 5 of /Users/dariagurova/Documents/GitHub/loft/css/components/why/benefits.scss
 
 1: .benefits {
 2:     display: flex;
@@ -15,8 +15,8 @@ Error: Undefined mixin 'phones'.
 10: 
 
 Backtrace:
-/Users/dariagurova/dev/beats/loft/css/components/why/benefits.scss:5:in `phones'
-/Users/dariagurova/dev/beats/loft/css/components/why/benefits.scss:5
+/Users/dariagurova/Documents/GitHub/loft/css/components/why/benefits.scss:5:in `phones'
+/Users/dariagurova/Documents/GitHub/loft/css/components/why/benefits.scss:5
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 5 of /Users/dariagurova/dev/beats/loft/css/components/why/benefits.scss, in `phones'\A         from line 5 of /Users/dariagurova/dev/beats/loft/css/components/why/benefits.scss\A \A 1: .benefits {\A 2:     display: flex;\A 3:     margin-top: rem(62px);\A 4: \A 5:     @include phones {\A 6:         flex-direction: column;\A 7:         //justify-content: space-between;\A 8:     }\A 9: }\A 10: "; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 5 of /Users/dariagurova/Documents/GitHub/loft/css/components/why/benefits.scss, in `phones'\A         from line 5 of /Users/dariagurova/Documents/GitHub/loft/css/components/why/benefits.scss\A \A 1: .benefits {\A 2:     display: flex;\A 3:     margin-top: rem(62px);\A 4: \A 5:     @include phones {\A 6:         flex-direction: column;\A 7:         //justify-content: space-between;\A 8:     }\A 9: }\A 10: "; }

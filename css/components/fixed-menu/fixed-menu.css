@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 6 of /Users/dariagurova/dev/beats/loft/css/components/fixed-menu/fixed-menu.scss, in `tablets'
-        from line 6 of /Users/dariagurova/dev/beats/loft/css/components/fixed-menu/fixed-menu.scss
+        on line 6 of /Users/dariagurova/Documents/GitHub/loft/css/components/fixed-menu/fixed-menu.scss, in `tablets'
+        from line 6 of /Users/dariagurova/Documents/GitHub/loft/css/components/fixed-menu/fixed-menu.scss
 
 1: .fixed-menu {
 2:     position: fixed;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'tablets'.
 11: .fixed-menu__item {
 
 Backtrace:
-/Users/dariagurova/dev/beats/loft/css/components/fixed-menu/fixed-menu.scss:6:in `tablets'
-/Users/dariagurova/dev/beats/loft/css/components/fixed-menu/fixed-menu.scss:6
+/Users/dariagurova/Documents/GitHub/loft/css/components/fixed-menu/fixed-menu.scss:6:in `tablets'
+/Users/dariagurova/Documents/GitHub/loft/css/components/fixed-menu/fixed-menu.scss:6
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 6 of /Users/dariagurova/dev/beats/loft/css/components/fixed-menu/fixed-menu.scss, in `tablets'\A         from line 6 of /Users/dariagurova/dev/beats/loft/css/components/fixed-menu/fixed-menu.scss\A \A 1: .fixed-menu {\A 2:     position: fixed;\A 3:     top: 20%;\A 4:     right: 3%;\A 5: \A 6:     @include tablets {\A 7:         display: none;\A 8:     }\A 9: }\A 10: \A 11: .fixed-menu__item {"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 6 of /Users/dariagurova/Documents/GitHub/loft/css/components/fixed-menu/fixed-menu.scss, in `tablets'\A         from line 6 of /Users/dariagurova/Documents/GitHub/loft/css/components/fixed-menu/fixed-menu.scss\A \A 1: .fixed-menu {\A 2:     position: fixed;\A 3:     top: 20%;\A 4:     right: 3%;\A 5: \A 6:     @include tablets {\A 7:         display: none;\A 8:     }\A 9: }\A 10: \A 11: .fixed-menu__item {"; }

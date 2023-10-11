@@ -1,8 +1,9 @@
-.reviews__display {
+.reviews__list {
     background: #F8FAF9;
     padding: rem(42px);
     overflow: hidden;
     position: relative;
+    min-height: rem(280px);
 
     &:before {
         content: "";
@@ -18,8 +19,15 @@
     }
 }
 
-.reviews__display-inner {
+.reviews__item {
     display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    pointer-events: none;
 
     @include tablets {
         flex-direction: column;
@@ -28,6 +36,11 @@
     }
 }
 
+.reviews__item.active {
+    position: static;
+    opacity: 1;
+    pointer-events: unset;
+}
 
 .reviews__switcher {
     display: flex;

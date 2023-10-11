@@ -1,10 +1,10 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 9 of /Users/dariagurova/dev/beats/loft/css/components/shop/arrow.scss, in `tablets'
-        from line 9 of /Users/dariagurova/dev/beats/loft/css/components/shop/arrow.scss
+        on line 9 of /Users/dariagurova/Documents/GitHub/loft/css/components/shop/arrow.scss, in `tablets'
+        from line 9 of /Users/dariagurova/Documents/GitHub/loft/css/components/shop/arrow.scss
 
 4:     top: 50%;
-5:     left: -5%;
+5:     left: -3%;
 6:     display: flex;
 7:     justify-content: space-between;
 8: 
@@ -16,8 +16,8 @@ Error: Undefined mixin 'tablets'.
 14: 
 
 Backtrace:
-/Users/dariagurova/dev/beats/loft/css/components/shop/arrow.scss:9:in `tablets'
-/Users/dariagurova/dev/beats/loft/css/components/shop/arrow.scss:9
+/Users/dariagurova/Documents/GitHub/loft/css/components/shop/arrow.scss:9:in `tablets'
+/Users/dariagurova/Documents/GitHub/loft/css/components/shop/arrow.scss:9
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of /Users/dariagurova/dev/beats/loft/css/components/shop/arrow.scss, in `tablets'\A         from line 9 of /Users/dariagurova/dev/beats/loft/css/components/shop/arrow.scss\A \A 4:     top: 50%;\A 5:     left: -5%;\A 6:     display: flex;\A 7:     justify-content: space-between;\A 8: \A 9:     @include tablets {\A 10:         width: 60%;\A 11:         top: 25%;\A 12:         left: 20%;\A 13:     }\A 14: "; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of /Users/dariagurova/Documents/GitHub/loft/css/components/shop/arrow.scss, in `tablets'\A         from line 9 of /Users/dariagurova/Documents/GitHub/loft/css/components/shop/arrow.scss\A \A 4:     top: 50%;\A 5:     left: -3%;\A 6:     display: flex;\A 7:     justify-content: space-between;\A 8: \A 9:     @include tablets {\A 10:         width: 60%;\A 11:         top: 25%;\A 12:         left: 20%;\A 13:     }\A 14: "; }

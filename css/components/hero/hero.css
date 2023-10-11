@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$grey".
-        on line 3 of /Users/dariagurova/dev/beats/loft/css/components/hero/hero.scss
+        on line 3 of /Users/dariagurova/Documents/GitHub/loft/css/components/hero/hero.scss
 
 1: .hero {
 2:     background: url(../pictures/hero/beats.png) left 82%  top 65% no-repeat;
@@ -12,7 +12,7 @@ Error: Undefined variable: "$grey".
 8:     padding-top: rem(24px);
 
 Backtrace:
-/Users/dariagurova/dev/beats/loft/css/components/hero/hero.scss:3
+/Users/dariagurova/Documents/GitHub/loft/css/components/hero/hero.scss:3
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -59,4 +59,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$grey\".\A         on line 3 of /Users/dariagurova/dev/beats/loft/css/components/hero/hero.scss\A \A 1: .hero {\A 2:     background: url(../pictures/hero/beats.png) left 82%  top 65% no-repeat;\A 3:     background-color: $grey;\A 4:     min-height: rem(652px);\A 5:     color: black;\A 6:     align-items: center;\A 7:     position: relative;\A 8:     padding-top: rem(24px);"; }
+  content: "Error: Undefined variable: \"$grey\".\A         on line 3 of /Users/dariagurova/Documents/GitHub/loft/css/components/hero/hero.scss\A \A 1: .hero {\A 2:     background: url(../pictures/hero/beats.png) left 82%  top 65% no-repeat;\A 3:     background-color: $grey;\A 4:     min-height: rem(652px);\A 5:     color: black;\A 6:     align-items: center;\A 7:     position: relative;\A 8:     padding-top: rem(24px);"; }

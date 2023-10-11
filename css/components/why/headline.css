@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 4 of /Users/dariagurova/dev/beats/loft/css/components/why/headline.scss, in `phones'
-        from line 4 of /Users/dariagurova/dev/beats/loft/css/components/why/headline.scss
+        on line 4 of /Users/dariagurova/Documents/GitHub/loft/css/components/why/headline.scss, in `phones'
+        from line 4 of /Users/dariagurova/Documents/GitHub/loft/css/components/why/headline.scss
 
 1: .headline {
 2:     text-align: center;
@@ -14,8 +14,8 @@ Error: Undefined mixin 'phones'.
 9:     margin-bottom: rem(18px);
 
 Backtrace:
-/Users/dariagurova/dev/beats/loft/css/components/why/headline.scss:4:in `phones'
-/Users/dariagurova/dev/beats/loft/css/components/why/headline.scss:4
+/Users/dariagurova/Documents/GitHub/loft/css/components/why/headline.scss:4:in `phones'
+/Users/dariagurova/Documents/GitHub/loft/css/components/why/headline.scss:4
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -64,4 +64,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 4 of /Users/dariagurova/dev/beats/loft/css/components/why/headline.scss, in `phones'\A         from line 4 of /Users/dariagurova/dev/beats/loft/css/components/why/headline.scss\A \A 1: .headline {\A 2:     text-align: center;\A 3: \A 4:     @include phones {\A 5:         padding: rem(38px) 0;\A 6:     }\A 7: }\A 8: .headline__title {\A 9:     margin-bottom: rem(18px);"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 4 of /Users/dariagurova/Documents/GitHub/loft/css/components/why/headline.scss, in `phones'\A         from line 4 of /Users/dariagurova/Documents/GitHub/loft/css/components/why/headline.scss\A \A 1: .headline {\A 2:     text-align: center;\A 3: \A 4:     @include phones {\A 5:         padding: rem(38px) 0;\A 6:     }\A 7: }\A 8: .headline__title {\A 9:     margin-bottom: rem(18px);"; }

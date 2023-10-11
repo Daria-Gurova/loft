@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 24 of /Users/dariagurova/dev/beats/loft/css/components/reviews/reviews.scss, in `tablets'
-        from line 24 of /Users/dariagurova/dev/beats/loft/css/components/reviews/reviews.scss
+        on line 32 of /Users/dariagurova/Documents/GitHub/loft/css/components/reviews/reviews.scss, in `tablets'
+        from line 32 of /Users/dariagurova/Documents/GitHub/loft/css/components/reviews/reviews.scss
 
-19: }
-20: 
-21: .reviews__display-inner {
-22:     display: flex;
-23: 
-24:     @include tablets {
-25:         flex-direction: column;
-26:         text-align: center;
-27:         align-items: center;
-28:     }
-29: }
+27:     right: 0;
+28:     bottom: 0;
+29:     opacity: 0;
+30:     pointer-events: none;
+31: 
+32:     @include tablets {
+33:         flex-direction: column;
+34:         text-align: center;
+35:         align-items: center;
+36:     }
+37: }
 
 Backtrace:
-/Users/dariagurova/dev/beats/loft/css/components/reviews/reviews.scss:24:in `tablets'
-/Users/dariagurova/dev/beats/loft/css/components/reviews/reviews.scss:24
+/Users/dariagurova/Documents/GitHub/loft/css/components/reviews/reviews.scss:32:in `tablets'
+/Users/dariagurova/Documents/GitHub/loft/css/components/reviews/reviews.scss:32
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 24 of /Users/dariagurova/dev/beats/loft/css/components/reviews/reviews.scss, in `tablets'\A         from line 24 of /Users/dariagurova/dev/beats/loft/css/components/reviews/reviews.scss\A \A 19: }\A 20: \A 21: .reviews__display-inner {\A 22:     display: flex;\A 23: \A 24:     @include tablets {\A 25:         flex-direction: column;\A 26:         text-align: center;\A 27:         align-items: center;\A 28:     }\A 29: }"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 32 of /Users/dariagurova/Documents/GitHub/loft/css/components/reviews/reviews.scss, in `tablets'\A         from line 32 of /Users/dariagurova/Documents/GitHub/loft/css/components/reviews/reviews.scss\A \A 27:     right: 0;\A 28:     bottom: 0;\A 29:     opacity: 0;\A 30:     pointer-events: none;\A 31: \A 32:     @include tablets {\A 33:         flex-direction: column;\A 34:         text-align: center;\A 35:         align-items: center;\A 36:     }\A 37: }"; }

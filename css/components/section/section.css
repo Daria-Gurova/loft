@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 20 of /Users/dariagurova/dev/beats/loft/css/components/section/section.scss, in `phones'
-        from line 20 of /Users/dariagurova/dev/beats/loft/css/components/section/section.scss
+        on line 20 of /Users/dariagurova/Documents/GitHub/loft/css/components/section/section.scss, in `phones'
+        from line 20 of /Users/dariagurova/Documents/GitHub/loft/css/components/section/section.scss
 
 15:     margin-bottom: rem(60px);
 16:     text-align: center;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'phones'.
 25: .order-section {
 
 Backtrace:
-/Users/dariagurova/dev/beats/loft/css/components/section/section.scss:20:in `phones'
-/Users/dariagurova/dev/beats/loft/css/components/section/section.scss:20
+/Users/dariagurova/Documents/GitHub/loft/css/components/section/section.scss:20:in `phones'
+/Users/dariagurova/Documents/GitHub/loft/css/components/section/section.scss:20
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 20 of /Users/dariagurova/dev/beats/loft/css/components/section/section.scss, in `phones'\A         from line 20 of /Users/dariagurova/dev/beats/loft/css/components/section/section.scss\A \A 15:     margin-bottom: rem(60px);\A 16:     text-align: center;\A 17:     text-transform: uppercase;\A 18:     color: black;\A 19: \A 20:     @include phones {\A 21:         font-size: rem(32px);\A 22:     }\A 23: }\A 24: \A 25: .order-section {"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 20 of /Users/dariagurova/Documents/GitHub/loft/css/components/section/section.scss, in `phones'\A         from line 20 of /Users/dariagurova/Documents/GitHub/loft/css/components/section/section.scss\A \A 15:     margin-bottom: rem(60px);\A 16:     text-align: center;\A 17:     text-transform: uppercase;\A 18:     color: black;\A 19: \A 20:     @include phones {\A 21:         font-size: rem(32px);\A 22:     }\A 23: }\A 24: \A 25: .order-section {"; }

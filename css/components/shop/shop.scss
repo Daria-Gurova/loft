@@ -7,6 +7,12 @@
 
 .shop-container {
     position: relative;
+
+    .bx-wrapper {
+        border: 0;
+        background: transparent;
+        box-shadow: none;
+    }
 }
 
 .shop__list {
