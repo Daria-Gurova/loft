@@ -12,6 +12,11 @@
         border: 0;
         background: transparent;
         box-shadow: none;
+
+        @include tablets {
+            width: 50%;
+            margin: auto;
+        }
     }
 }
 

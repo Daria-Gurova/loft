@@ -421,64 +421,76 @@
                                 </div>
                             </li>
                         </ul>
-                        <!-- <ul class="team team--version--mobile">
+                        <ul class="team team--version--mobile">
                             <li class="team__item">
-                                <div class="team__member">
-                                    <img src="./pictures/team/boris.png" alt="" class="team-img">
-                                </div>
                                 <button class="team__title" type="button">
                                     <p class="team__name">Борис Федорович</p>
+                                    <div class="team__elem">
+                                        <img src="./pictures/team/red.png" class="team__red">
+                                    </div>
                                 </button>
                                 <div class="team__content">
                                     <div class="team__content-block">
+                                        <div class="team__member">
+                                            <img src="./pictures/team/boris.png" alt="" class="team-img">
+                                        </div>
                                         <p class="team__profession">Главный технолог</p>
                                         <p class="team__description">Отвечает за вкусовые качества и калорийность</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="team__item">
-                                <div class="team__member">
-                                    <img src="./pictures/team/alla.png" alt="" class="team-img">
-                                </div>
                                 <button class="team__title" type="button">
                                     <p class="team__name">Алла Ивановна</p>
+                                    <div class="team__elem">
+                                        <img src="./pictures/team/red.png" class="team__red">
+                                    </div>
                                 </button>
                                 <div class="team__content">
                                     <div class="team__content-block">
+                                        <div class="team__member">
+                                            <img src="./pictures/team/alla.png" alt="" class="team-img">
+                                        </div>
                                         <p class="team__profession">Специалист по упаковке</p>
                                         <p class="team__description">Автор запоминающегося стиля наших батончиков</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="team__item">
-                                <div class="team__member">
-                                    <img src="./pictures/team/kirill.png" alt="" class="team-img">
-                                </div>
                                 <button class="team__title" type="button">
                                     <p class="team__name">Кирилл Матросов</p>
+                                    <div class="team__elem">
+                                        <img src="./pictures/team/red.png" class="team__red">
+                                    </div>
                                 </button>
                                 <div class="team__content">
                                     <div class="team__content-block">
+                                        <div class="team__member">
+                                            <img src="./pictures/team/kirill.png" alt="" class="team-img">
+                                        </div>
                                         <p class="team__profession">Оператор</p>
                                         <p class="team__description">Разработал дизайн наушников  beats solo 3</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="team__item">
-                                <div class="team__member">
-                                    <img src="./pictures/team/mila.png" alt="" class="team-img">
-                                </div>
                                 <button class="team__title" type="button">
                                     <p class="team__name">Мила Рыжкова</p>
+                                    <div class="team__elem">
+                                        <img src="./pictures/team/red.png" class="team__red">
+                                    </div>
                                 </button>
                                 <div class="team__content">
                                     <div class="team__content-block">
+                                        <div class="team__member">
+                                            <img src="./pictures/team/mila.png" alt="" class="team-img">
+                                        </div>
                                         <p class="team__profession">PR, маркетинг</p>
                                         <p class="team__description">По всем вопросам сотрудничества и рекламы писать только Миле</p>
                                     </div>
                                 </div>
                             </li>
-                        </ul> -->
+                        </ul>
                     </div>
                 </section>
                 <section class="section reviews__section">
@@ -553,15 +565,16 @@
                     <div class="container">
                         <h2 class="section__title order-title">Закажите доставку</h2>
                         <form class="form">
+                            <input type="hidden" name="to" value="somewhere@mail.com">
                             <div class="form__col">
                                 <div class="form__row">
                                     <label class="form__block">
                                         <div class="form__title">Имя</div>
-                                        <input type="text" class="form__input">
+                                        <input type="text" class="form__input" name="name">
                                     </label>
                                     <label class="form__block">
                                         <div class="form__title">Телефон</div>
-                                        <input type="text" class="form__input">
+                                        <input type="text" class="form__input" name="phone">
                                     </label>
                                 </div>
                                 <div class="form__row">
@@ -593,7 +606,7 @@
                                 <div class="form__row">
                                     <label class="form__block">
                                         <div class="form__title">Комментарий</div>
-                                        <textarea class="form__input form__input--textarea"></textarea>
+                                        <textarea class="form__input form__input--textarea" name="comment"></textarea>
                                     </label>   
                                 </div>
                                 <div class="form__controls">
@@ -616,8 +629,8 @@
                                     </label>
                                 </div>
                                 <div class="form__btns">
-                                    <input type="submit" value="Заказать" class="btn btn--theme--red">
-                                    <input type="reset " value="Очистить" class="btn btn--theme--transparent">
+                                    <input type="submit" value="Заказать" id="modal-open" class="btn btn--theme--red">
+                                    <input type="reset " value="Очистить" id="modal-reset" class="btn btn--theme--transparent">
                                 </div>
                             </div>
                         </form>
@@ -729,7 +742,7 @@
         </nav>
         <div id="modal" class="modal">
             <div class="modal__container">
-                <div class="modal__content">Сообщение отправлено!</div>
+                <p class="modal__text">Сообщение отправлено!</p>
                 <div class="modal__button-container">
                     <a href="#" class="btn btn--theme--red app-close-modal">Закрыть</a>
                 </div>
@@ -738,6 +751,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script> -->
         <script src="index.js"></script>
     </body>

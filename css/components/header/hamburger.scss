@@ -15,7 +15,7 @@
 }
 
 .hamburger--active {
-    
+   
 }
 
 .hamburger__plank {
@@ -26,16 +26,16 @@
 }
 
 .hamburger--active .hamburger__plank:nth-child(1) {
-    color: white;
+    background: white;
     opacity: 0;
 }
 
 .hamburger--active .hamburger__plank:nth-child(2) {
-    color: white;
+    background: white;
     transform: rotate(45deg);
 }
 
 .hamburger--active .hamburger__plank:nth-child(3) {
-    color: white;
+    background: white;
     transform: rotate(-46deg) translateY(-7px) translateX(5px);
 }

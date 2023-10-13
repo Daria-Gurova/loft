@@ -10,7 +10,7 @@
         justify-content: center;
         position: fixed;
         opacity: 0;
-        background-color: black;
+        background-color: rgba(0,0,0,.8);
         z-index: 10;
     }   
 }
@@ -27,7 +27,13 @@
 }
 
 .overlay .menu__item {
-   margin: 0;
+    margin: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color:rgb(192,192,192);
+    }
 }
 
 .overlay--active {
