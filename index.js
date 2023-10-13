@@ -195,12 +195,28 @@ const init = () => {
         controls: []
     });
 
-    myPlacemark = new ymaps.GeoObject({
-        geometry: {
-            type: "Point",
-            coordinates: [55.76, 37.56]
-        }
+    const coords = [
+        [55.75, 37.50],
+        [55.75, 37.71],
+        [55.70, 37.70]
+    ];
+    
+    const myCollection = new ymaps.GeoObjectCollection({}, {
+        preset: 'islands#redIcon',
+        draggable: false,
+        iconLayout: 'default#image',
+        iconImageHref: './pictures/map/marker.png',
+        icon_imagesize: [35, 63],
+        iconImageOffset: [-35, -63]
     });
+    
+    coords.forEach(coord => {
+        myCollection.add(new ymaps.Placemark(coord));
+    })
+    
+    myMap.geoObjects.add(myCollection);
+
+    myMap.behaviors.disable('scrollZoom');  
 }
 
 ymaps.ready(init);
