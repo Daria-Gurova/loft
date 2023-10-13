@@ -957,8 +957,6 @@ img {
     display: none; }
 
 .map-section {
-  background: url(../pictures/map/map.png) no-repeat center center;
-  background-size: cover;
   position: relative; }
 
 .footer {

@@ -183,4 +183,17 @@ $('.form').submit(e => {
         })
     }
 });
-  
+
+// Здесь для карты
+
+let myMap;
+
+const init = () => {
+    myMap = new ymaps.Map("map", {
+        center: [37.385534, 55.584227],
+        zoom: 11,
+        controls: []
+    });
+}
+
+ymaps.ready(init);
