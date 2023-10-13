@@ -194,6 +194,13 @@ const init = () => {
         zoom: 11,
         controls: []
     });
+
+    myPlacemark = new ymaps.GeoObject({
+        geometry: {
+            type: "Point",
+            coordinates: [55.76, 37.56]
+        }
+    });
 }
 
 ymaps.ready(init);
