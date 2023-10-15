@@ -21,6 +21,10 @@
 }
 
 .shop__list {
+    
+}
+
+.shop__item {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +41,8 @@
     }
 }
 
-.shop__item {
+.shop__block {
+    max-width: rem(419px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -59,7 +64,7 @@
 
 .shop__image {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .shop__btn-wrap {
@@ -112,6 +117,7 @@
         max-width: rem(614px);
         font-size: rem(16px);
         line-height: rem(19px);
+        text-align: center;
     }
 
     @include phones {
@@ -161,10 +167,10 @@
 .shop__structure-container {
     display: none;
     position: absolute;
-    top: 0;
+    top: 10%;
     left: 100%;
     max-width: rem(273px);
-    background-color: rgba(154, 154, 154, 1);
+    background-color: rgb(192,192,192);
     border-radius: rem(4px);
 
 }
@@ -179,8 +185,7 @@
 .shop__structure-point {
     display: flex;
     align-items: center;
-    //gap: rem(16px);
-    
+    cursor: default;
 }
 
 .shop__structure-icon-wrap {
@@ -202,6 +207,12 @@
     font-size: rem(16px);
     line-height: rem(24px);
     font-weight: 400;
+    color: black;
+
+    &:hover {
+        font-weight: bold;
+        font-size: rem(18px);
+    }
 }
 
 .shop__btn-wrap:hover .shop__structure-container {

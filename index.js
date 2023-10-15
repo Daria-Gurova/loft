@@ -76,7 +76,7 @@ $(".team__title").click(e => {
 
 // Здесь для слайдера
 
-const slider = $(".shop__list-container").bxSlider({
+const slider = $(".shop__list").bxSlider({
     pager: false,
     controls: false
 });

@@ -148,11 +148,13 @@ img {
 
 .hamburger--active .hamburger__plank:nth-child(2) {
   background: white;
-  transform: rotate(45deg); }
+  transform: rotate(45deg);
+  transition: all 0.3s ease; }
 
 .hamburger--active .hamburger__plank:nth-child(3) {
   background: white;
-  transform: rotate(-46deg) translateY(-7px) translateX(5px); }
+  transform: rotate(-46deg) translateY(-7px) translateX(5px);
+  transition: all 0.3s ease; }
 
 @media screen and (max-width: 768px) {
   .overlay {
@@ -475,27 +477,28 @@ img {
         width: 50%;
         margin: auto; } }
 
-.shop__list {
+.shop__item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 3.6875rem;
   overflow: hidden; }
   @media screen and (max-width: 768px) {
-    .shop__list {
+    .shop__item {
       flex-direction: column;
       gap: 3.0625rem; } }
   @media screen and (max-width: 480px) {
-    .shop__list {
+    .shop__item {
       gap: 1.625rem; } }
 
-.shop__item {
+.shop__block {
+  max-width: 26.1875rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 1.5rem; }
   @media screen and (max-width: 768px) {
-    .shop__item {
+    .shop__block {
       align-items: center;
       gap: 0.875rem; } }
 
@@ -507,7 +510,7 @@ img {
 
 .shop__image {
   width: 100%;
-  object-fit: cover; }
+  object-fit: contain; }
 
 .shop__btn-wrap {
   position: relative;
@@ -552,7 +555,8 @@ img {
     .shop__description {
       max-width: 38.375rem;
       font-size: 1rem;
-      line-height: 1.1875rem; } }
+      line-height: 1.1875rem;
+      text-align: center; } }
   @media screen and (max-width: 480px) {
     .shop__description {
       max-width: 25.75rem; } }
@@ -592,10 +596,10 @@ img {
 .shop__structure-container {
   display: none;
   position: absolute;
-  top: 0;
+  top: 10%;
   left: 100%;
   max-width: 17.0625rem;
-  background-color: #9a9a9a;
+  background-color: silver;
   border-radius: 0.25rem; }
 
 .shop__structure-list {
@@ -606,7 +610,8 @@ img {
 
 .shop__structure-point {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  cursor: default; }
 
 .shop__structure-icon-wrap {
   width: 2rem;
@@ -623,7 +628,11 @@ img {
   width: 11.25rem;
   font-size: 1rem;
   line-height: 1.5rem;
-  font-weight: 400; }
+  font-weight: 400;
+  color: black; }
+  .shop__structure-text:hover {
+    font-weight: bold;
+    font-size: 1.125rem; }
 
 .shop__btn-wrap:hover .shop__structure-container {
   display: block; }
@@ -958,6 +967,10 @@ img {
 
 .map-section {
   position: relative; }
+
+.id__map {
+  width: 100%;
+  height: 100%; }
 
 .footer {
   position: absolute;

@@ -33,9 +33,11 @@
 .hamburger--active .hamburger__plank:nth-child(2) {
     background: white;
     transform: rotate(45deg);
+    transition: all 0.3s ease;
 }
 
 .hamburger--active .hamburger__plank:nth-child(3) {
     background: white;
     transform: rotate(-46deg) translateY(-7px) translateX(5px);
+    transition: all 0.3s ease;
 }
