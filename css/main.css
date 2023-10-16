@@ -468,6 +468,10 @@ img {
 
 .shop-container {
   position: relative; }
+  .shop-container .bx-wrapper {
+    border: 0;
+    background: transparent;
+    box-shadow: none; }
 
 .shop__item {
   display: flex;
@@ -478,8 +482,7 @@ img {
   @media screen and (max-width: 768px) {
     .shop__item {
       flex-direction: column;
-      gap: 3.0625rem;
-      max-width: 28.8125rem; } }
+      gap: 3.0625rem; } }
   @media screen and (max-width: 480px) {
     .shop__item {
       gap: 1.625rem; } }

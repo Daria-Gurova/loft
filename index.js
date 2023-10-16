@@ -74,20 +74,21 @@ $(".team__title").click(e => {
 
 // Здесь для слайдера
 
-// const slider = $(".shop__list").bxSlider({
-//     pager: false,
-//     controls: false
-// });
+const slider = $(".shop__list").bxSlider({
+    pager: false,
+    controls: false,
+    wrapperClass: '.shop__list'
+});
 
-// $("#left").click(e => {
-//     e.preventDefault();
-//     slider.goToPrevSlide();
-// });
+$("#left").click(e => {
+    e.preventDefault();
+    slider.goToPrevSlide();
+});
 
-// $("#right").click(e => {
-//     e.preventDefault();
-//     slider.goToNextSlide();
-// });
+$("#right").click(e => {
+    e.preventDefault();
+    slider.goToNextSlide();
+});
 
 // Здесь для формы
 
