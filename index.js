@@ -43,11 +43,9 @@ const openItem = item => {
     const contentBlock = container.find(".team__content");
     const textBlock = contentBlock.find(".team__content-block");
     const reqHeight = textBlock.height();
-    const red = container.find(".team__red");
     
     container.addClass("active");
     contentBlock.height(reqHeight);
-    red.css("transform","rotate(180deg)");
 }
 
 const closeItem = container => {
@@ -76,20 +74,20 @@ $(".team__title").click(e => {
 
 // Здесь для слайдера
 
-const slider = $(".shop__list").bxSlider({
-    pager: false,
-    controls: false
-});
+// const slider = $(".shop__list").bxSlider({
+//     pager: false,
+//     controls: false
+// });
 
-$("#left").click(e => {
-    e.preventDefault();
-    slider.goToPrevSlide();
-});
+// $("#left").click(e => {
+//     e.preventDefault();
+//     slider.goToPrevSlide();
+// });
 
-$("#right").click(e => {
-    e.preventDefault();
-    slider.goToNextSlide();
-});
+// $("#right").click(e => {
+//     e.preventDefault();
+//     slider.goToNextSlide();
+// });
 
 // Здесь для формы
 
@@ -190,7 +188,7 @@ let myMap;
 
 const init = () => {
     myMap = new ymaps.Map("map", {
-        center: [37.385534, 55.584227],
+        center: [55.75399399999374,37.62209300000001],
         zoom: 11,
         controls: []
     });

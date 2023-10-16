@@ -8,16 +8,16 @@
 .shop-container {
     position: relative;
 
-    .bx-wrapper {
-        border: 0;
-        background: transparent;
-        box-shadow: none;
+    // // .bx-wrapper {
+    // //     border: 0;
+    // //     background: transparent;
+    // //     box-shadow: none;
 
-        @include tablets {
-            width: 50%;
-            margin: auto;
-        }
-    }
+    // //     // @include tablets {
+    // //     //     width: 50%;
+    // //     //     margin: auto;
+    // //     // }
+    // }
 }
 
 .shop__list {
@@ -34,6 +34,7 @@
     @include tablets {
         flex-direction: column;
         gap: rem(49px);
+        max-width: rem(461px);
     }
 
     @include phones {
